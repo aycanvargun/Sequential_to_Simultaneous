@@ -15,7 +15,7 @@ public class Eszamanlilastirma {
 		Scanner klavye = new Scanner(System.in);
 		System.out.printf("Node sayisi girin:");		
 		Eszamanlilastirma.node_sayisi = klavye.nextInt();	
-		
+		//Sequential to simultaneous
 		System.out.printf("\n");
 	 tree_array= new Node[node_sayisi]; 
 		for(  i =0; i<node_sayisi;i ++ ) 
